@@ -7,7 +7,7 @@ b=[]
 
 na=[]
 nb=[]
-r=10
+r=100
 for c in range(0,r):
     a.append(c)
     b.append( math.sqrt( (r-c)**2 + r**2)  )
