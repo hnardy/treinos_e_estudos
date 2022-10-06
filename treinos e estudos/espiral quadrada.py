@@ -17,5 +17,6 @@ for c in range(0,100):
     y.append(alt)
 
 print(x,y)
+print(f'len x{len(x)} len y {len(y)}' )
 plt.plot(x, y)
 plt.show()
